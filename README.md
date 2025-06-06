@@ -7,7 +7,7 @@ Supports FAQ-based answers with a fallback to Azure OpenAI GPT-4o for advanced r
 
 ## Project Structure
 
-root/
+root/ <br/>
 ├── backend/ <br/>
 ├── dlc-chatbot/ # React frontend <br/>
 ├── .env # Environment variables (gitignored) <br/>
