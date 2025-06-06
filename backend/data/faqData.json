@@ -1,0 +1,113 @@
+{
+  "whatsapp": {
+    "send photo": [
+      "Open WhatsApp.",
+      "Go to a chat.",
+      "Tap the 📎 (attach) icon.",
+      "Choose ‘Gallery’ and select your photo.",
+      "Tap Send ➤"
+    ],
+    "make call": [
+      "Open WhatsApp.",
+      "Go to a contact or group.",
+      "Tap the 📞 or 🎥 icon for voice/video call."
+    ],
+    "create group": [
+      "Open WhatsApp.",
+      "Go to the Chats tab.",
+      "Tap the three dots → 'New group'.",
+      "Select contacts and tap Next.",
+      "Set group name and tap Create."
+    ],
+    "delete message": [
+      "Tap and hold the message.",
+      "Tap the 🗑️ (delete) icon.",
+      "Choose 'Delete for me' or 'Delete for everyone'."
+    ],
+    "send voice note": [
+      "Open a chat in WhatsApp.",
+      "Tap and hold the 🎤 icon.",
+      "Speak your message.",
+      "Release the icon to send."
+    ],
+    "change profile picture": [
+      "Open WhatsApp Settings.",
+      "Tap your profile photo.",
+      "Tap the camera icon → 'Choose Photo' or 'Take Photo'."
+    ]
+  },
+  "paytm": {
+    "send money": [
+      "Open Paytm.",
+      "Tap on 'To Mobile Number'.",
+      "Enter recipient number and amount.",
+      "Tap ‘Pay’ and enter UPI PIN."
+    ],
+    "check balance": [
+      "Open Paytm.",
+      "Go to 'Passbook'.",
+      "Select your bank account.",
+      "Tap on ‘Check Balance’."
+    ],
+    "recharge mobile": [
+      "Open Paytm.",
+      "Tap 'Recharge & Bill Payments'.",
+      "Choose 'Mobile Recharge'.",
+      "Enter number, amount and pay."
+    ],
+    "book train ticket": [
+      "Open Paytm.",
+      "Tap on 'Train Tickets'.",
+      "Search and select train.",
+      "Enter passenger details and pay."
+    ],
+    "view transaction history": [
+      "Open Paytm.",
+      "Go to 'Passbook'.",
+      "Select your bank account or wallet.",
+      "View all transactions."
+    ],
+    "add money to wallet": [
+      "Open Paytm.",
+      "Tap 'Add Money'.",
+      "Enter amount and payment method.",
+      "Complete payment."
+    ]
+  },
+  "maps": {
+    "navigate home": [
+      "Open Google Maps.",
+      "Tap on ‘Search here’.",
+      "Type ‘Home’ or your address.",
+      "Tap ‘Directions’ ➤",
+      "Start navigation 🚗"
+    ],
+    "nearest atm": [
+      "Open Google Maps.",
+      "Type ‘ATM near me’.",
+      "You’ll see nearby ATMs on the map."
+    ],
+    "save favorite place": [
+      "Search for the place on Maps.",
+      "Tap on it to open details.",
+      "Tap 'Save' and choose a list (Favorites, Want to Go, etc.)."
+    ],
+    "download offline maps": [
+      "Open Google Maps.",
+      "Tap on profile → 'Offline maps'.",
+      "Select area to download.",
+      "Tap Download."
+    ],
+    "traffic updates": [
+      "Open Google Maps.",
+      "Enter your route or destination.",
+      "Enable 'Traffic' layer for real-time traffic info."
+    ],
+    "share live location": [
+      "Open Google Maps.",
+      "Tap your profile → 'Location sharing'.",
+      "Choose contact and sharing duration.",
+      "Tap Share."
+    ]
+  }
+}
