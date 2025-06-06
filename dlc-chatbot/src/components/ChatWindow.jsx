@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import MessageBubble from './MessageBubble';
 import InputBar from './InputBar';
 
+
 const ChatWindow = ({ selectedApp, onBack }) => {
   const [messages, setMessages] = useState([
     { from: 'bot', text: `Hi! I can help you learn about ${selectedApp}. Ask me anything.` },
@@ -11,7 +12,7 @@ const ChatWindow = ({ selectedApp, onBack }) => {
   const messagesEndRef = useRef(null);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/faqs/${selectedApp.toLowerCase()}`)
+    fetch(`https://digital-literacy-helper.onrender.com/faqs/${selectedApp.toLowerCase()}`)
       .then((res) => res.json())
       .then((data) => {
         if (data.faqs) setFaqs(data.faqs);
@@ -32,7 +33,7 @@ const ChatWindow = ({ selectedApp, onBack }) => {
     setLoading(true);
 
     try {
-      const response = await fetch('http://localhost:5000/chat', {
+      const response = await fetch('https://digital-literacy-helper.onrender.com/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ question: text, app: selectedApp }),
@@ -74,7 +75,7 @@ const ChatWindow = ({ selectedApp, onBack }) => {
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-lg flex flex-col h-[75vh] overflow-hidden">
+    <div className="bg-white rounded-lg shadow-lg flex flex-col h-[75vh] overflow-hidden min-h-screen md:min-h-0">
       <div className="flex items-center px-4 py-2 bg-indigo-600 text-white font-semibold justify-between">
         <div className="flex items-center">
           <button
