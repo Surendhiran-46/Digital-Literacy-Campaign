@@ -9,19 +9,7 @@ Supports FAQ-based answers with a fallback to Azure OpenAI GPT-4o for advanced r
 
 root/
 ├── backend/
-│ ├── app.py
-│ ├── requirements.txt
-│ ├── data/
-│ │ └── faqData.json
-│ └── venv/ # Python virtual environment (gitignored)
 ├── dlc-chatbot/ # React frontend
-│ ├── public/
-│ ├── src/
-│ ├── node_modules/ # Node modules (gitignored)
-│ ├── package.json
-│ ├── package-lock.json
-│ ├── tailwind.config.js
-│ └── postcss.config.js
 ├── .env # Environment variables (gitignored)
 ├── .gitignore
 └── README.md
